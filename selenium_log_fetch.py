@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 # 设置 Chrome WebDriver 的路径
-chrome_driver_path = "" # 请替换成你的 Chrome 驱动程序的路径
+chrome_driver_path = ""# 请替换成你的 Chrome 驱动程序的路径
 
 options = webdriver.ChromeOptions()
 path = Service()

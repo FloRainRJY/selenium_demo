@@ -24,7 +24,6 @@ element = (WebDriverWait(driver, 10)
             # 触发反爬之后的点击
 # element.click()
 time.sleep(1)
-
 performance_log = driver.get_log('performance')  # 获取名称为 performance 的日志
 for i in range(len(performance_log)):
     message = json.loads(performance_log[i]['message'])
